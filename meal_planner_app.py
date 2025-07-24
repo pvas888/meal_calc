@@ -81,7 +81,7 @@ total_kcal = 0.0
 # Pair categories two-by-two
 pairs = [categories[i : i + 2] for i in range(0, len(categories), 2)]
 for pair in pairs:
-    cols = st.columns(2)
+    cols = st.columns(7)
     for col, cat in zip(cols, pair):
         with col:
             st.subheader(cat)
