@@ -1,12 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[3]:
-
-
-pip install streamlit pandas
-
-# In[4]:
 
 
 # meal_planner_app.py
